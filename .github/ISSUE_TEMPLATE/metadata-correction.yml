@@ -1,0 +1,25 @@
+name: Metadata correction
+description: Correct a paper, dataset, author, or resource record
+title: "[Metadata] "
+labels:
+  - documentation
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Field or resource
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Authoritative source
+      description: Provide a DOI, publisher, PubMed, PMC, or official repository link.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true

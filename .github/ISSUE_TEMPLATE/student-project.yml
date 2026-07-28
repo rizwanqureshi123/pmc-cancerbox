@@ -1,0 +1,40 @@
+name: Student project
+description: Propose or claim a supervised implementation module
+title: "[Student project] "
+labels:
+  - student-project
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      placeholder: Panel decomposition
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and deliverables
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation plan
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data, privacy, and licensing
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Research-use acknowledgement
+      options:
+        - label: I will not commit restricted data, publisher files, credentials, or model weights.
+          required: true
+        - label: I will not describe the implementation as suitable for clinical use.
+          required: true
