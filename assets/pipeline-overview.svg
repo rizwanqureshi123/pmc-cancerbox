@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">PMC-CancerBox pipeline</title>
+  <desc id="desc">PMC acquisition, curation, bounding-box localization, MCP-MedSAM segmentation, evaluation, and responsible-AI audit.</desc>
+  <rect width="1200" height="330" rx="22" fill="#f8fafc"/>
+  <text x="34" y="54" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="750" fill="#17213a">From open literature to an audited segmentation corpus</text>
+  <text x="34" y="82" font-family="Inter,Arial,sans-serif" font-size="15" fill="#5c6680">A documentation-level reconstruction of the reported workflow; no publisher figure is reproduced.</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <g transform="translate(34,116)">
+      <rect width="158" height="132" rx="16" fill="#fff" stroke="#3478d4" stroke-width="2"/>
+      <circle cx="79" cy="34" r="18" fill="#3478d4" opacity=".14"/>
+      <text x="79" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#3478d4">1</text>
+      <text x="79" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">PMC acquisition</text>
+      <text x="79" y="100" text-anchor="middle" font-size="12" fill="#5c6680">Figures · captions</text>
+    </g>
+    <path d="M198 182 H226" stroke="#aeb8cd" stroke-width="3"/>
+    <path d="M220 176 L228 182 L220 188" fill="none" stroke="#aeb8cd" stroke-width="3"/>
+    <g transform="translate(234,116)">
+      <rect width="158" height="132" rx="16" fill="#fff" stroke="#26a6b5" stroke-width="2"/>
+      <circle cx="79" cy="34" r="18" fill="#26a6b5" opacity=".14"/>
+      <text x="79" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#21909e">2</text>
+      <text x="79" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">Curation</text>
+      <text x="79" y="100" text-anchor="middle" font-size="12" fill="#5c6680">Relevance filtering</text>
+    </g>
+    <path d="M398 182 H426" stroke="#aeb8cd" stroke-width="3"/>
+    <path d="M420 176 L428 182 L420 188" fill="none" stroke="#aeb8cd" stroke-width="3"/>
+    <g transform="translate(434,116)">
+      <rect width="158" height="132" rx="16" fill="#fff" stroke="#dc8b2c" stroke-width="2"/>
+      <circle cx="79" cy="34" r="18" fill="#dc8b2c" opacity=".14"/>
+      <text x="79" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#c2761e">3</text>
+      <text x="79" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">Localization</text>
+      <text x="79" y="100" text-anchor="middle" font-size="12" fill="#5c6680">Bounding-box prompts</text>
+    </g>
+    <path d="M598 182 H626" stroke="#aeb8cd" stroke-width="3"/>
+    <path d="M620 176 L628 182 L620 188" fill="none" stroke="#aeb8cd" stroke-width="3"/>
+    <g transform="translate(634,116)">
+      <rect width="158" height="132" rx="16" fill="#fff" stroke="#6f3cc3" stroke-width="2"/>
+      <circle cx="79" cy="34" r="18" fill="#6f3cc3" opacity=".14"/>
+      <text x="79" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#6f3cc3">4</text>
+      <text x="79" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">Segmentation</text>
+      <text x="79" y="100" text-anchor="middle" font-size="12" fill="#5c6680">MCP-MedSAM masks</text>
+    </g>
+    <path d="M798 182 H826" stroke="#aeb8cd" stroke-width="3"/>
+    <path d="M820 176 L828 182 L820 188" fill="none" stroke="#aeb8cd" stroke-width="3"/>
+    <g transform="translate(834,116)">
+      <rect width="158" height="132" rx="16" fill="#fff" stroke="#4a9b68" stroke-width="2"/>
+      <circle cx="79" cy="34" r="18" fill="#4a9b68" opacity=".14"/>
+      <text x="79" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#3f885a">5</text>
+      <text x="79" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">Evaluation</text>
+      <text x="79" y="100" text-anchor="middle" font-size="12" fill="#5c6680">IoU · failure modes</text>
+    </g>
+    <path d="M998 182 H1026" stroke="#aeb8cd" stroke-width="3"/>
+    <path d="M1020 176 L1028 182 L1020 188" fill="none" stroke="#aeb8cd" stroke-width="3"/>
+    <g transform="translate(1034,116)">
+      <rect width="132" height="132" rx="16" fill="#fff" stroke="#d65374" stroke-width="2"/>
+      <circle cx="66" cy="34" r="18" fill="#d65374" opacity=".14"/>
+      <text x="66" y="40" text-anchor="middle" font-size="18" font-weight="800" fill="#bd4565">6</text>
+      <text x="66" y="75" text-anchor="middle" font-size="15" font-weight="750" fill="#17213a">Audit</text>
+      <text x="66" y="99" text-anchor="middle" font-size="12" fill="#5c6680">Representation</text>
+      <text x="66" y="116" text-anchor="middle" font-size="12" fill="#5c6680">and confounding</text>
+    </g>
+  </g>
+  <text x="600" y="294" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#5c6680">Student implementations should preserve provenance and produce auditable intermediate outputs.</text>
+</svg>

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please update this provisional record with the final DOI and complete author list before citing."
+title: "PMC-CancerBox: A Multi-Modal Breast Cancer and Brain Tumor Segmentation Dataset with a Responsible-AI Representation Audit"
+type: dataset
+authors:
+  - family-names: Tariq
+    given-names: Kanza
+  - family-names: Khan
+    given-names: Munir Ahmed
+  - family-names: Manahil
+    given-names: Roofah
+keywords:
+  - medical image segmentation
+  - breast cancer
+  - brain tumor
+  - PubMed Central
+  - responsible AI
+  - dataset audit
+  - MedSAM
+abstract: "Provisional repository metadata. The supplied publication proof contains placeholders for the first three authors and does not display a final DOI."
